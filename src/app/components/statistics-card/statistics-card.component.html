@@ -1,0 +1,99 @@
+<div
+  class="bg-gradient-to-br from-[#1565c0] via-[#1976d2] to-[#2196f3] rounded-xl p-6 text-white h-full flex flex-col"
+>
+  <h3 class="text-xl font-semibold mb-5">{{ title }}</h3>
+
+  <div class="flex flex-col gap-4 flex-1 justify-between">
+    <div class="flex items-center gap-6">
+      <div class="relative w-[120px] h-[120px] shrink-0">
+        <canvas
+          baseChart
+          [data]="doughnutChartData"
+          [type]="doughnutChartType"
+          [options]="doughnutChartOptions"
+        >
+        </canvas>
+        <div
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center flex flex-col"
+        >
+          <span class="text-xs opacity-90">Jami</span>
+          <span class="text-2xl font-bold">{{ total | number }}</span>
+        </div>
+      </div>
+
+      <div class="flex gap-4 flex-wrap">
+        <div class="flex items-start gap-2">
+          <span class="w-1 h-10 rounded-sm shrink-0 bg-[#4caf50]"></span>
+          <div class="flex flex-col">
+            <span class="text-xs opacity-90 leading-[1.2]">Malaka<br />oshirgan</span>
+            <span class="text-lg font-semibold"
+              >{{ malakaOshirgan | number }}
+              <small class="text-xs opacity-80 font-normal"
+                >{{ getMalakaPercentage() }}%</small
+              ></span
+            >
+          </div>
+        </div>
+        <div class="flex items-start gap-2">
+          <span class="w-1 h-10 rounded-sm shrink-0 bg-[#ff9800]"></span>
+          <div class="flex flex-col">
+            <span class="text-xs opacity-90 leading-[1.2]">Malaka<br />oshirmagan</span>
+            <span class="text-lg font-semibold"
+              >{{ malakaOshirmagan | number }}
+              <small class="text-xs opacity-80 font-normal"
+                >{{ getOshirmaganPercentage() }}%</small
+              ></span
+            >
+          </div>
+        </div>
+        <div class="flex items-start gap-2">
+          <span class="w-1 h-10 rounded-sm shrink-0 bg-[#f44336]"></span>
+          <div class="flex flex-col">
+            <span class="text-xs opacity-90 leading-[1.2]">Jarayonda</span>
+            <span class="text-lg font-semibold"
+              >{{ jarayonda | number }}
+              <small class="text-xs opacity-80 font-normal"
+                >{{ getJarayondaPercentage() }}%</small
+              ></span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white/15 px-4 py-2 rounded-[20px] text-[13px] text-center backdrop-blur-sm">
+      {{ date }}
+    </div>
+
+    <div class="grid grid-cols-4 gap-3 mt-2">
+      <div class="flex flex-col gap-1">
+        <span class="text-xs opacity-85">144 soatlik kurs</span>
+        <span class="text-xl font-bold">{{ soatlikKurs | number }}</span>
+      </div>
+      <div class="flex flex-col gap-1">
+        <span class="text-xs opacity-85">Masofaviy portal</span>
+        <span class="text-xl font-bold">{{ masofaviyPortal | number }}</span>
+      </div>
+      <div class="flex flex-col gap-1">
+        <span class="text-xs opacity-85">An'anaviy portal</span>
+        <span class="text-xl font-bold">{{ ananaviyPortal | number }}</span>
+      </div>
+      <div class="flex flex-col gap-1">
+        <span class="text-xs opacity-85">O'zgarish</span>
+        <span class="text-xl font-bold text-[#4caf50] flex items-center gap-1">
+          <svg
+            width="12"
+            height="12"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="3"
+          >
+            <path d="M12 19V5M5 12l7-7 7 7" />
+          </svg>
+          +{{ ozgarish }}%
+        </span>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+<div class="flex gap-4 my-6 flex-wrap">
+  @for (category of categories; track category.id) {
+  <button
+    class="flex flex-col items-center gap-2 px-6 py-4 bg-white border border-gray-200 rounded-xl cursor-pointer transition-all duration-200 hover:border-primary hover:shadow-sm"
+    [ngClass]="{
+      'border-primary bg-gradient-to-br from-blue-50 to-white': category.id === selectedCategory
+    }"
+    (click)="selectCategory(category.id)"
+  >
+    <div class="w-10 h-10 flex items-center justify-center text-primary [&_svg]:w-7 [&_svg]:h-7">
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+      </svg>
+    </div>
+    <span class="text-[13px] font-medium text-text-dark">{{ category.label }}</span>
+  </button>
+  }
+</div>

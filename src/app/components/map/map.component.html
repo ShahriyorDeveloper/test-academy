@@ -1,0 +1,23 @@
+<div class="relative">
+  <h3 class="text-lg font-semibold text-text-dark mb-4">Hududlar kesimida</h3>
+  <div
+    class="bg-bg-white rounded-xl p-5 min-h-[350px] [&_svg]:w-full [&_svg]:h-auto [&_svg]:max-h-[350px] [&_path]:fill-primary [&_path]:stroke-white [&_path]:stroke-1 [&_path]:transition-colors [&_path]:duration-300 [&_path:hover]:!fill-[#90caf9] [&_.selected]:!fill-[#90caf9] [&_#aral-sea]:fill-[#a8d4f0] [&_#aral-sea]:pointer-events-none"
+    #mapContainer
+    [innerHTML]="svgContent"
+  ></div>
+  @if (getSelectedRegionName()) {
+  <div
+    class="absolute top-[30px] left-1/2 -translate-x-1/2 bg-[#1a1a2e] text-white py-2.5 px-5 rounded-[10px] text-[15px] font-medium z-10 shadow-lg after:content-[''] after:absolute after:-bottom-2 after:left-1/2 after:-translate-x-1/2 after:border-l-[8px] after:border-r-[8px] after:border-t-[8px] after:border-l-transparent after:border-r-transparent after:border-t-[#1a1a2e]"
+  >
+    {{ getSelectedRegionName() }}
+  </div>
+  } @if (hoveredRegionName) {
+  <div
+    class="fixed z-50 pointer-events-none bg-[#1a1a2e] text-white px-3 py-1.5 rounded-lg text-sm font-medium shadow-md shadow-slate-900/10 transform -translate-x-1/2 -translate-y-full -mt-2"
+    [style.left.px]="tooltipPosition.x"
+    [style.top.px]="tooltipPosition.y"
+  >
+    {{ hoveredRegionName }}
+  </div>
+  }
+</div>

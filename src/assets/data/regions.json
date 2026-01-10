@@ -1,0 +1,1220 @@
+{
+  "qoraqalpogiston": {
+    "name": "Qoraqalpog'iston Respublikasi",
+    "statistics": {
+      "total": 3214,
+      "malakaOshirgan": 1685,
+      "malakaOshirmagan": 882,
+      "jarayonda": 647
+    },
+    "details": {
+      "soatlikKurs": 1205,
+      "masofaviyPortal": 893,
+      "ananaviyPortal": 758,
+      "ozgarish": 8.2
+    },
+    "barChart": {
+      "2024": [423, 381, 292],
+      "2023": [394, 342, 265],
+      "2022": [351, 314, 233],
+      "2021": [312, 285, 204]
+    },
+    "lineChart": {
+      "labels": ["1-chorak", "2-chorak", "3-chorak", "4-chorak"],
+      "soatlikKurs": [283, 324, 381, 422],
+      "masofaviyPortal": [212, 253, 314, 382],
+      "ananaviyPortal": [183, 224, 262, 291]
+    },
+    "tabs": {
+      "prokuratura": {
+        "progress": 65,
+        "completedCount": 83,
+        "statistics": {
+          "total": 1024,
+          "malakaOshirgan": 612,
+          "malakaOshirmagan": 204,
+          "jarayonda": 208
+        },
+        "details": {
+          "soatlikKurs": 412,
+          "masofaviyPortal": 305,
+          "ananaviyPortal": 198,
+          "ozgarish": 5.1
+        },
+        "barChart": { "2024": [204, 183, 142], "2023": [182, 163, 124] },
+        "lineChart": {
+          "labels": ["1-ch", "2-ch", "3-ch", "4-ch"],
+          "soatlikKurs": [103, 122, 144, 162],
+          "masofaviyPortal": [84, 102, 123, 142],
+          "ananaviyPortal": [63, 82, 104, 121]
+        }
+      },
+      "departament": {
+        "progress": 40,
+        "completedCount": 154,
+        "statistics": {
+          "total": 812,
+          "malakaOshirgan": 305,
+          "malakaOshirmagan": 302,
+          "jarayonda": 205
+        },
+        "details": {
+          "soatlikKurs": 303,
+          "masofaviyPortal": 254,
+          "ananaviyPortal": 152,
+          "ozgarish": 3.4
+        },
+        "barChart": { "2024": [153, 134, 92], "2023": [132, 113, 72] },
+        "lineChart": {
+          "labels": ["1-ch", "2-ch", "3-ch", "4-ch"],
+          "soatlikKurs": [82, 103, 124, 142],
+          "masofaviyPortal": [64, 83, 102, 123],
+          "ananaviyPortal": [42, 63, 81, 102]
+        }
+      },
+      "byuro": {
+        "progress": 75,
+        "completedCount": 223,
+        "statistics": {
+          "total": 915,
+          "malakaOshirgan": 704,
+          "malakaOshirmagan": 105,
+          "jarayonda": 106
+        },
+        "details": {
+          "soatlikKurs": 354,
+          "masofaviyPortal": 283,
+          "ananaviyPortal": 182,
+          "ozgarish": 7.2
+        },
+        "barChart": { "2024": [223, 204, 162], "2023": [203, 182, 143] },
+        "lineChart": {
+          "labels": ["1-ch", "2-ch", "3-ch", "4-ch"],
+          "soatlikKurs": [123, 142, 163, 182],
+          "masofaviyPortal": [103, 122, 143, 164],
+          "ananaviyPortal": [82, 103, 124, 142]
+        }
+      },
+      "akademiya": {
+        "progress": 80,
+        "completedCount": 294,
+        "statistics": {
+          "total": 512,
+          "malakaOshirgan": 403,
+          "malakaOshirmagan": 54,
+          "jarayonda": 55
+        },
+        "details": {
+          "soatlikKurs": 153,
+          "masofaviyPortal": 104,
+          "ananaviyPortal": 52,
+          "ozgarish": 12.1
+        },
+        "barChart": { "2024": [253, 224, 192], "2023": [223, 194, 162] },
+        "lineChart": {
+          "labels": ["1-ch", "2-ch", "3-ch", "4-ch"],
+          "soatlikKurs": [143, 162, 183, 204],
+          "masofaviyPortal": [123, 142, 164, 183],
+          "ananaviyPortal": [103, 122, 143, 162]
+        }
+      }
+    }
+  },
+  "chorazm": {
+    "name": "Xorazm viloyati",
+    "statistics": {
+      "total": 2834,
+      "malakaOshirgan": 1462,
+      "malakaOshirmagan": 785,
+      "jarayonda": 587
+    },
+    "details": {
+      "soatlikKurs": 1105,
+      "masofaviyPortal": 784,
+      "ananaviyPortal": 653,
+      "ozgarish": 12.3
+    },
+    "barChart": {
+      "2024": [384, 345, 263],
+      "2023": [352, 314, 235],
+      "2022": [323, 283, 204],
+      "2021": [293, 253, 172]
+    },
+    "lineChart": {
+      "labels": ["1-chorak", "2-chorak", "3-chorak", "4-chorak"],
+      "soatlikKurs": [253, 294, 344, 383],
+      "masofaviyPortal": [193, 234, 283, 343],
+      "ananaviyPortal": [163, 204, 243, 264]
+    },
+    "tabs": {
+      "prokuratura": {
+        "progress": 70,
+        "completedCount": 94,
+        "statistics": {
+          "total": 814,
+          "malakaOshirgan": 504,
+          "malakaOshirmagan": 203,
+          "jarayonda": 107
+        },
+        "details": {
+          "soatlikKurs": 305,
+          "masofaviyPortal": 254,
+          "ananaviyPortal": 153,
+          "ozgarish": 4.2
+        }
+      },
+      "departament": {
+        "progress": 50,
+        "completedCount": 165,
+        "statistics": {
+          "total": 705,
+          "malakaOshirgan": 304,
+          "malakaOshirmagan": 302,
+          "jarayonda": 103
+        },
+        "details": {
+          "soatlikKurs": 253,
+          "masofaviyPortal": 204,
+          "ananaviyPortal": 103,
+          "ozgarish": 2.1
+        }
+      },
+      "byuro": {
+        "progress": 80,
+        "completedCount": 234,
+        "statistics": {
+          "total": 805,
+          "malakaOshirgan": 603,
+          "malakaOshirmagan": 102,
+          "jarayonda": 100
+        },
+        "details": {
+          "soatlikKurs": 324,
+          "masofaviyPortal": 263,
+          "ananaviyPortal": 162,
+          "ozgarish": 6.3
+        }
+      },
+      "akademiya": {
+        "progress": 85,
+        "completedCount": 315,
+        "statistics": {
+          "total": 512,
+          "malakaOshirgan": 453,
+          "malakaOshirmagan": 29,
+          "jarayonda": 30
+        },
+        "details": {
+          "soatlikKurs": 183,
+          "masofaviyPortal": 124,
+          "ananaviyPortal": 63,
+          "ozgarish": 10.4
+        }
+      }
+    }
+  },
+  "navoiy": {
+    "name": "Navoiy viloyati",
+    "statistics": {
+      "total": 2215,
+      "malakaOshirgan": 1154,
+      "malakaOshirmagan": 623,
+      "jarayonda": 438
+    },
+    "details": {
+      "soatlikKurs": 854,
+      "masofaviyPortal": 625,
+      "ananaviyPortal": 524,
+      "ozgarish": 6.5
+    },
+    "barChart": {
+      "2024": [304, 273, 212],
+      "2023": [272, 243, 184],
+      "2022": [243, 214, 153],
+      "2021": [212, 184, 122]
+    },
+    "lineChart": {
+      "labels": ["1-ch", "2-ch", "3-ch", "4-ch"],
+      "soatlikKurs": [193, 224, 273, 304],
+      "masofaviyPortal": [143, 174, 223, 273],
+      "ananaviyPortal": [123, 154, 193, 214]
+    },
+    "tabs": {
+      "prokuratura": {
+        "progress": 60,
+        "completedCount": 73,
+        "statistics": {
+          "total": 612,
+          "malakaOshirgan": 354,
+          "malakaOshirmagan": 153,
+          "jarayonda": 105
+        },
+        "details": {
+          "soatlikKurs": 204,
+          "masofaviyPortal": 154,
+          "ananaviyPortal": 103,
+          "ozgarish": 3.2
+        }
+      },
+      "departament": {
+        "progress": 45,
+        "completedCount": 134,
+        "statistics": {
+          "total": 512,
+          "malakaOshirgan": 204,
+          "malakaOshirmagan": 203,
+          "jarayonda": 105
+        },
+        "details": {
+          "soatlikKurs": 184,
+          "masofaviyPortal": 123,
+          "ananaviyPortal": 82,
+          "ozgarish": 2.5
+        }
+      },
+      "byuro": {
+        "progress": 70,
+        "completedCount": 204,
+        "statistics": {
+          "total": 605,
+          "malakaOshirgan": 403,
+          "malakaOshirmagan": 102,
+          "jarayonda": 100
+        },
+        "details": {
+          "soatlikKurs": 223,
+          "masofaviyPortal": 164,
+          "ananaviyPortal": 123,
+          "ozgarish": 4.1
+        }
+      },
+      "akademiya": {
+        "progress": 75,
+        "completedCount": 265,
+        "statistics": {
+          "total": 504,
+          "malakaOshirgan": 382,
+          "malakaOshirmagan": 61,
+          "jarayonda": 61
+        },
+        "details": {
+          "soatlikKurs": 183,
+          "masofaviyPortal": 142,
+          "ananaviyPortal": 93,
+          "ozgarish": 8.4
+        }
+      }
+    }
+  },
+  "buxoro": {
+    "name": "Buxoro viloyati",
+    "statistics": {
+      "total": 3612,
+      "malakaOshirgan": 1894,
+      "malakaOshirmagan": 995,
+      "jarayonda": 723
+    },
+    "details": {
+      "soatlikKurs": 1405,
+      "masofaviyPortal": 1024,
+      "ananaviyPortal": 863,
+      "ozgarish": 14.2
+    },
+    "barChart": {
+      "2024": [483, 434, 332],
+      "2023": [443, 394, 303],
+      "2022": [403, 354, 273],
+      "2021": [363, 314, 243]
+    },
+    "lineChart": {
+      "labels": ["1-ch", "2-ch", "3-ch", "4-ch"],
+      "soatlikKurs": [324, 373, 434, 483],
+      "masofaviyPortal": [243, 294, 363, 434],
+      "ananaviyPortal": [203, 254, 303, 334]
+    },
+    "tabs": {
+      "prokuratura": {
+        "progress": 72,
+        "completedCount": 113,
+        "statistics": {
+          "total": 1012,
+          "malakaOshirgan": 704,
+          "malakaOshirmagan": 204,
+          "jarayonda": 104
+        },
+        "details": {
+          "soatlikKurs": 353,
+          "masofaviyPortal": 305,
+          "ananaviyPortal": 252,
+          "ozgarish": 6.1
+        }
+      },
+      "departament": {
+        "progress": 55,
+        "completedCount": 183,
+        "statistics": {
+          "total": 905,
+          "malakaOshirgan": 403,
+          "malakaOshirmagan": 302,
+          "jarayonda": 200
+        },
+        "details": {
+          "soatlikKurs": 304,
+          "masofaviyPortal": 253,
+          "ananaviyPortal": 202,
+          "ozgarish": 4.3
+        }
+      }
+    }
+  },
+  "samarqand": {
+    "name": "Samarqand viloyati",
+    "statistics": {
+      "total": 5214,
+      "malakaOshirgan": 2735,
+      "malakaOshirmagan": 1436,
+      "jarayonda": 1043
+    },
+    "details": {
+      "soatlikKurs": 2056,
+      "masofaviyPortal": 1485,
+      "ananaviyPortal": 1253,
+      "ozgarish": 18.5
+    },
+    "barChart": {
+      "2024": [693, 624, 483],
+      "2023": [643, 574, 443],
+      "2022": [593, 524, 403],
+      "2021": [543, 474, 364]
+    },
+    "lineChart": {
+      "labels": ["1-ch", "2-ch", "3-ch", "4-ch"],
+      "soatlikKurs": [463, 534, 623, 693],
+      "masofaviyPortal": [353, 414, 523, 623],
+      "ananaviyPortal": [293, 364, 433, 483]
+    },
+    "tabs": {
+      "prokuratura": {
+        "progress": 78,
+        "completedCount": 154,
+        "statistics": {
+          "total": 1508,
+          "malakaOshirgan": 1104,
+          "malakaOshirmagan": 252,
+          "jarayonda": 152
+        },
+        "details": {
+          "soatlikKurs": 503,
+          "masofaviyPortal": 405,
+          "ananaviyPortal": 302,
+          "ozgarish": 7.4
+        },
+        "barChart": { "2024": [354, 312, 243], "2023": [314, 283, 213] },
+        "lineChart": {
+          "labels": ["1-ch", "2-ch", "3-ch", "4-ch"],
+          "soatlikKurs": [234, 263, 304, 343],
+          "masofaviyPortal": [183, 214, 253, 293],
+          "ananaviyPortal": [154, 183, 222, 253]
+        }
+      },
+      "departament": {
+        "progress": 58,
+        "completedCount": 213,
+        "statistics": {
+          "total": 1205,
+          "malakaOshirgan": 703,
+          "malakaOshirmagan": 304,
+          "jarayonda": 198
+        },
+        "details": {
+          "soatlikKurs": 403,
+          "masofaviyPortal": 305,
+          "ananaviyPortal": 253,
+          "ozgarish": 5.2
+        },
+        "barChart": { "2024": [263, 234, 183], "2023": [233, 204, 163] },
+        "lineChart": {
+          "labels": ["1-ch", "2-ch", "3-ch", "4-ch"],
+          "soatlikKurs": [173, 203, 243, 283],
+          "masofaviyPortal": [133, 163, 203, 243],
+          "ananaviyPortal": [103, 133, 173, 203]
+        }
+      },
+      "byuro": {
+        "progress": 88,
+        "completedCount": 354,
+        "statistics": {
+          "total": 1406,
+          "malakaOshirgan": 1205,
+          "malakaOshirmagan": 100,
+          "jarayonda": 101
+        },
+        "details": {
+          "soatlikKurs": 453,
+          "masofaviyPortal": 354,
+          "ananaviyPortal": 303,
+          "ozgarish": 9.1
+        },
+        "barChart": { "2024": [403, 363, 283], "2023": [363, 323, 253] },
+        "lineChart": {
+          "labels": ["1-ch", "2-ch", "3-ch", "4-ch"],
+          "soatlikKurs": [263, 303, 353, 403],
+          "masofaviyPortal": [203, 243, 293, 343],
+          "ananaviyPortal": [173, 213, 253, 293]
+        }
+      },
+      "akademiya": {
+        "progress": 92,
+        "completedCount": 453,
+        "statistics": {
+          "total": 1105,
+          "malakaOshirgan": 1004,
+          "malakaOshirmagan": 50,
+          "jarayonda": 51
+        },
+        "details": {
+          "soatlikKurs": 504,
+          "masofaviyPortal": 403,
+          "ananaviyPortal": 204,
+          "ozgarish": 11.2
+        },
+        "barChart": { "2024": [453, 403, 323], "2023": [403, 363, 293] },
+        "lineChart": {
+          "labels": ["1-ch", "2-ch", "3-ch", "4-ch"],
+          "soatlikKurs": [303, 353, 413, 473],
+          "masofaviyPortal": [233, 283, 333, 393],
+          "ananaviyPortal": [193, 243, 293, 343]
+        }
+      }
+    }
+  },
+  "qashqadaryo": {
+    "name": "Qashqadaryo viloyati",
+    "statistics": {
+      "total": 4123,
+      "malakaOshirgan": 2164,
+      "malakaOshirmagan": 1135,
+      "jarayonda": 824
+    },
+    "details": {
+      "soatlikKurs": 1604,
+      "masofaviyPortal": 1163,
+      "ananaviyPortal": 984,
+      "ozgarish": 11.5
+    },
+    "barChart": {
+      "2024": [554, 492, 384],
+      "2023": [504, 452, 343],
+      "2022": [453, 403, 304],
+      "2021": [403, 354, 263]
+    },
+    "lineChart": {
+      "labels": ["1-ch", "2-ch", "3-ch", "4-ch"],
+      "soatlikKurs": [363, 423, 493, 553],
+      "masofaviyPortal": [273, 333, 413, 493],
+      "ananaviyPortal": [233, 283, 343, 383]
+    },
+    "tabs": {
+      "prokuratura": {
+        "progress": 74,
+        "completedCount": 133,
+        "statistics": {
+          "total": 1205,
+          "malakaOshirgan": 804,
+          "malakaOshirmagan": 251,
+          "jarayonda": 150
+        },
+        "details": {
+          "soatlikKurs": 403,
+          "masofaviyPortal": 304,
+          "ananaviyPortal": 252,
+          "ozgarish": 5.4
+        }
+      },
+      "departament": {
+        "progress": 52,
+        "completedCount": 194,
+        "statistics": {
+          "total": 1006,
+          "malakaOshirgan": 503,
+          "malakaOshirmagan": 302,
+          "jarayonda": 201
+        },
+        "details": {
+          "soatlikKurs": 353,
+          "masofaviyPortal": 254,
+          "ananaviyPortal": 203,
+          "ozgarish": 3.1
+        }
+      }
+    }
+  },
+  "surxondaryo": {
+    "name": "Surxondaryo viloyati",
+    "statistics": {
+      "total": 3012,
+      "malakaOshirgan": 1584,
+      "malakaOshirmagan": 824,
+      "jarayonda": 604
+    },
+    "details": {
+      "soatlikKurs": 1164,
+      "masofaviyPortal": 853,
+      "ananaviyPortal": 712,
+      "ozgarish": 9.2
+    },
+    "barChart": {
+      "2024": [404, 362, 283],
+      "2023": [374, 333, 252],
+      "2022": [342, 303, 224],
+      "2021": [313, 274, 192]
+    },
+    "lineChart": {
+      "labels": ["1-ch", "2-ch", "3-ch", "4-ch"],
+      "soatlikKurs": [274, 312, 363, 404],
+      "masofaviyPortal": [203, 243, 303, 364],
+      "ananaviyPortal": [173, 214, 253, 283]
+    },
+    "tabs": {
+      "prokuratura": {
+        "progress": 68,
+        "completedCount": 88,
+        "statistics": {
+          "total": 904,
+          "malakaOshirgan": 603,
+          "malakaOshirmagan": 201,
+          "jarayonda": 100
+        },
+        "details": {
+          "soatlikKurs": 302,
+          "masofaviyPortal": 253,
+          "ananaviyPortal": 202,
+          "ozgarish": 4.1
+        }
+      },
+      "departament": {
+        "progress": 48,
+        "completedCount": 143,
+        "statistics": {
+          "total": 804,
+          "malakaOshirgan": 402,
+          "malakaOshirmagan": 251,
+          "jarayonda": 151
+        },
+        "details": {
+          "soatlikKurs": 253,
+          "masofaviyPortal": 202,
+          "ananaviyPortal": 152,
+          "ozgarish": 3.3
+        }
+      }
+    }
+  },
+  "jizzax": {
+    "name": "Jizzax viloyati",
+    "statistics": {
+      "total": 4518,
+      "malakaOshirgan": 2436,
+      "malakaOshirmagan": 1174,
+      "jarayonda": 908
+    },
+    "details": {
+      "soatlikKurs": 1754,
+      "masofaviyPortal": 1303,
+      "ananaviyPortal": 1105,
+      "ozgarish": 15.4
+    },
+    "barChart": {
+      "2024": [603, 543, 422],
+      "2023": [554, 493, 381],
+      "2022": [502, 442, 342],
+      "2021": [451, 393, 303]
+    },
+    "lineChart": {
+      "labels": ["1-chorak", "2-chorak", "3-chorak", "4-chorak"],
+      "soatlikKurs": [402, 464, 543, 603],
+      "masofaviyPortal": [303, 362, 452, 542],
+      "ananaviyPortal": [252, 313, 382, 423]
+    },
+    "tabs": {
+      "prokuratura": {
+        "progress": 75,
+        "completedCount": 103,
+        "statistics": {
+          "total": 1215,
+          "malakaOshirgan": 913,
+          "malakaOshirmagan": 201,
+          "jarayonda": 101
+        },
+        "details": {
+          "soatlikKurs": 454,
+          "masofaviyPortal": 353,
+          "ananaviyPortal": 302,
+          "ozgarish": 8.3
+        },
+        "barChart": { "2024": [303, 273, 214], "2023": [283, 252, 193] },
+        "lineChart": {
+          "labels": ["1-chorak", "2-chorak", "3-chorak", "4-chorak"],
+          "soatlikKurs": [183, 203, 233, 263],
+          "masofaviyPortal": [143, 163, 193, 223],
+          "ananaviyPortal": [113, 134, 163, 194]
+        }
+      },
+      "departament": {
+        "progress": 45,
+        "completedCount": 204,
+        "statistics": {
+          "total": 1013,
+          "malakaOshirgan": 454,
+          "malakaOshirmagan": 355,
+          "jarayonda": 204
+        },
+        "details": {
+          "soatlikKurs": 403,
+          "masofaviyPortal": 303,
+          "ananaviyPortal": 252,
+          "ozgarish": 4.1
+        },
+        "barChart": { "2024": [203, 183, 142], "2023": [183, 163, 122] },
+        "lineChart": {
+          "labels": ["1-chorak", "2-chorak", "3-chorak", "4-chorak"],
+          "soatlikKurs": [123, 143, 164, 184],
+          "masofaviyPortal": [93, 113, 133, 153],
+          "ananaviyPortal": [73, 93, 113, 133]
+        }
+      },
+      "byuro": {
+        "progress": 85,
+        "completedCount": 305,
+        "statistics": {
+          "total": 1324,
+          "malakaOshirgan": 1113,
+          "malakaOshirmagan": 106,
+          "jarayonda": 105
+        },
+        "details": {
+          "soatlikKurs": 504,
+          "masofaviyPortal": 404,
+          "ananaviyPortal": 354,
+          "ozgarish": 10.4
+        },
+        "barChart": { "2024": [354, 323, 254], "2023": [323, 292, 223] },
+        "lineChart": {
+          "labels": ["1-chorak", "2-chorak", "3-chorak", "4-chorak"],
+          "soatlikKurs": [223, 254, 283, 314],
+          "masofaviyPortal": [174, 204, 233, 263],
+          "ananaviyPortal": [143, 172, 203, 234]
+        }
+      },
+      "akademiya": {
+        "progress": 90,
+        "completedCount": 403,
+        "statistics": {
+          "total": 1015,
+          "malakaOshirgan": 914,
+          "malakaOshirmagan": 50,
+          "jarayonda": 51
+        },
+        "details": {
+          "soatlikKurs": 402,
+          "masofaviyPortal": 353,
+          "ananaviyPortal": 104,
+          "ozgarish": 14.2
+        },
+        "barChart": { "2024": [403, 363, 283], "2023": [363, 323, 252] },
+        "lineChart": {
+          "labels": ["1-chorak", "2-chorak", "3-chorak", "4-chorak"],
+          "soatlikKurs": [253, 283, 323, 353],
+          "masofaviyPortal": [203, 233, 273, 303],
+          "ananaviyPortal": [173, 204, 243, 273]
+        }
+      }
+    }
+  },
+  "sirdaryo": {
+    "name": "Sirdaryo viloyati",
+    "statistics": {
+      "total": 2014,
+      "malakaOshirgan": 1055,
+      "malakaOshirmagan": 554,
+      "jarayonda": 405
+    },
+    "details": {
+      "soatlikKurs": 783,
+      "masofaviyPortal": 562,
+      "ananaviyPortal": 472,
+      "ozgarish": 7.3
+    },
+    "barChart": {
+      "2024": [273, 243, 193],
+      "2023": [243, 214, 163],
+      "2022": [213, 184, 134],
+      "2021": [184, 154, 104]
+    },
+    "lineChart": {
+      "labels": ["1-ch", "2-ch", "3-ch", "4-ch"],
+      "soatlikKurs": [173, 203, 243, 273],
+      "masofaviyPortal": [133, 163, 203, 243],
+      "ananaviyPortal": [113, 143, 173, 193]
+    },
+    "tabs": {
+      "prokuratura": {
+        "progress": 62,
+        "completedCount": 68,
+        "statistics": {
+          "total": 605,
+          "malakaOshirgan": 353,
+          "malakaOshirmagan": 151,
+          "jarayonda": 101
+        },
+        "details": {
+          "soatlikKurs": 202,
+          "masofaviyPortal": 153,
+          "ananaviyPortal": 102,
+          "ozgarish": 4.1
+        }
+      },
+      "departament": {
+        "progress": 42,
+        "completedCount": 124,
+        "statistics": {
+          "total": 504,
+          "malakaOshirgan": 203,
+          "malakaOshirmagan": 200,
+          "jarayonda": 101
+        },
+        "details": {
+          "soatlikKurs": 182,
+          "masofaviyPortal": 122,
+          "ananaviyPortal": 82,
+          "ozgarish": 2.2
+        }
+      }
+    }
+  },
+  "toshkent_viloyati": {
+    "name": "Toshkent viloyati",
+    "statistics": {
+      "total": 5834,
+      "malakaOshirgan": 3062,
+      "malakaOshirmagan": 1618,
+      "jarayonda": 1154
+    },
+    "details": {
+      "soatlikKurs": 2284,
+      "masofaviyPortal": 1654,
+      "ananaviyPortal": 1395,
+      "ozgarish": 20.3
+    },
+    "barChart": {
+      "2024": [784, 703, 544],
+      "2023": [724, 642, 494],
+      "2022": [664, 582, 442],
+      "2021": [603, 523, 394]
+    },
+    "lineChart": {
+      "labels": ["1-chorak", "2-chorak", "3-chorak", "4-chorak"],
+      "soatlikKurs": [523, 604, 705, 785],
+      "masofaviyPortal": [394, 473, 584, 704],
+      "ananaviyPortal": [334, 403, 492, 542]
+    },
+    "tabs": {
+      "prokuratura": {
+        "progress": 80,
+        "completedCount": 184,
+        "statistics": {
+          "total": 1612,
+          "malakaOshirgan": 1205,
+          "malakaOshirmagan": 203,
+          "jarayonda": 204
+        },
+        "details": {
+          "soatlikKurs": 505,
+          "masofaviyPortal": 453,
+          "ananaviyPortal": 402,
+          "ozgarish": 8.3
+        },
+        "barChart": { "2024": [404, 362, 283], "2023": [363, 322, 243] },
+        "lineChart": {
+          "labels": ["1-ch", "2-ch", "3-ch", "4-ch"],
+          "soatlikKurs": [204, 244, 284, 324],
+          "masofaviyPortal": [153, 193, 232, 274],
+          "ananaviyPortal": [124, 163, 204, 243]
+        }
+      },
+      "departament": {
+        "progress": 60,
+        "completedCount": 254,
+        "statistics": {
+          "total": 1406,
+          "malakaOshirgan": 803,
+          "malakaOshirmagan": 402,
+          "jarayonda": 201
+        },
+        "details": {
+          "soatlikKurs": 453,
+          "masofaviyPortal": 352,
+          "ananaviyPortal": 303,
+          "ozgarish": 5.2
+        },
+        "barChart": { "2024": [304, 272, 214], "2023": [273, 243, 184] },
+        "lineChart": {
+          "labels": ["1-ch", "2-ch", "3-ch", "4-ch"],
+          "soatlikKurs": [154, 184, 213, 245],
+          "masofaviyPortal": [114, 143, 172, 204],
+          "ananaviyPortal": [94, 123, 152, 184]
+        }
+      },
+      "byuro": {
+        "progress": 90,
+        "completedCount": 406,
+        "statistics": {
+          "total": 1614,
+          "malakaOshirgan": 1408,
+          "malakaOshirmagan": 103,
+          "jarayonda": 103
+        },
+        "details": {
+          "soatlikKurs": 554,
+          "masofaviyPortal": 452,
+          "ananaviyPortal": 404,
+          "ozgarish": 10.4
+        },
+        "barChart": { "2024": [454, 402, 323], "2023": [403, 363, 283] },
+        "lineChart": {
+          "labels": ["1-ch", "2-ch", "3-ch", "4-ch"],
+          "soatlikKurs": [254, 293, 344, 394],
+          "masofaviyPortal": [193, 234, 283, 334],
+          "ananaviyPortal": [154, 195, 233, 274]
+        }
+      },
+      "akademiya": {
+        "progress": 95,
+        "completedCount": 506,
+        "statistics": {
+          "total": 1215,
+          "malakaOshirgan": 1107,
+          "malakaOshirmagan": 54,
+          "jarayonda": 54
+        },
+        "details": {
+          "soatlikKurs": 505,
+          "masofaviyPortal": 404,
+          "ananaviyPortal": 303,
+          "ozgarish": 15.3
+        },
+        "barChart": { "2024": [504, 452, 354], "2023": [454, 402, 304] },
+        "lineChart": {
+          "labels": ["1-ch", "2-ch", "3-ch", "4-ch"],
+          "soatlikKurs": [304, 352, 404, 453],
+          "masofaviyPortal": [223, 272, 324, 374],
+          "ananaviyPortal": [184, 232, 283, 332]
+        }
+      }
+    }
+  },
+  "toshkent": {
+    "name": "Toshkent shahri",
+    "statistics": {
+      "total": 8546,
+      "malakaOshirgan": 4692,
+      "malakaOshirmagan": 2224,
+      "jarayonda": 1630
+    },
+    "details": {
+      "soatlikKurs": 3412,
+      "masofaviyPortal": 2465,
+      "ananaviyPortal": 2068,
+      "ozgarish": 25.4
+    },
+    "barChart": {
+      "2024": [1142, 1025, 786],
+      "2023": [1054, 946, 725],
+      "2022": [974, 865, 665],
+      "2021": [894, 785, 604]
+    },
+    "lineChart": {
+      "labels": ["1-chorak", "2-chorak", "3-chorak", "4-chorak"],
+      "soatlikKurs": [755, 885, 1024, 1134],
+      "masofaviyPortal": [585, 684, 854, 1023],
+      "ananaviyPortal": [485, 584, 715, 784]
+    },
+    "tabs": {
+      "prokuratura": {
+        "progress": 85,
+        "completedCount": 256,
+        "statistics": {
+          "total": 2514,
+          "malakaOshirgan": 1506,
+          "malakaOshirmagan": 508,
+          "jarayonda": 500
+        },
+        "details": {
+          "soatlikKurs": 804,
+          "masofaviyPortal": 605,
+          "ananaviyPortal": 505,
+          "ozgarish": 12.3
+        },
+        "barChart": { "2024": [504, 453, 355], "2023": [453, 404, 303] },
+        "lineChart": {
+          "labels": ["1-chorak", "2-chorak", "3-chorak", "4-chorak"],
+          "soatlikKurs": [304, 354, 403, 454],
+          "masofaviyPortal": [223, 263, 323, 383],
+          "ananaviyPortal": [183, 224, 263, 303]
+        }
+      },
+      "departament": {
+        "progress": 65,
+        "completedCount": 355,
+        "statistics": {
+          "total": 2018,
+          "malakaOshirgan": 1008,
+          "malakaOshirmagan": 606,
+          "jarayonda": 404
+        },
+        "details": {
+          "soatlikKurs": 604,
+          "masofaviyPortal": 503,
+          "ananaviyPortal": 402,
+          "ozgarish": 8.5
+        },
+        "barChart": { "2024": [404, 363, 283], "2023": [363, 323, 244] },
+        "lineChart": {
+          "labels": ["1-chorak", "2-chorak", "3-chorak", "4-chorak"],
+          "soatlikKurs": [234, 273, 325, 374],
+          "masofaviyPortal": [174, 214, 263, 314],
+          "ananaviyPortal": [143, 182, 224, 263]
+        }
+      },
+      "byuro": {
+        "progress": 95,
+        "completedCount": 558,
+        "statistics": {
+          "total": 2420,
+          "malakaOshirgan": 2014,
+          "malakaOshirmagan": 203,
+          "jarayonda": 203
+        },
+        "details": {
+          "soatlikKurs": 803,
+          "masofaviyPortal": 705,
+          "ananaviyPortal": 603,
+          "ozgarish": 15.6
+        },
+        "barChart": { "2024": [605, 545, 424], "2023": [545, 483, 384] },
+        "lineChart": {
+          "labels": ["1-chorak", "2-chorak", "3-chorak", "4-chorak"],
+          "soatlikKurs": [353, 404, 464, 523],
+          "masofaviyPortal": [264, 312, 374, 434],
+          "ananaviyPortal": [212, 263, 314, 363]
+        }
+      },
+      "akademiya": {
+        "progress": 98,
+        "completedCount": 709,
+        "statistics": {
+          "total": 1634,
+          "malakaOshirgan": 1532,
+          "malakaOshirmagan": 51,
+          "jarayonda": 51
+        },
+        "details": {
+          "soatlikKurs": 603,
+          "masofaviyPortal": 503,
+          "ananaviyPortal": 402,
+          "ozgarish": 18.2
+        },
+        "barChart": { "2024": [704, 624, 484], "2023": [623, 552, 423] },
+        "lineChart": {
+          "labels": ["1-chorak", "2-chorak", "3-chorak", "4-chorak"],
+          "soatlikKurs": [404, 464, 543, 622],
+          "masofaviyPortal": [304, 363, 442, 523],
+          "ananaviyPortal": [253, 303, 363, 424]
+        }
+      }
+    }
+  },
+  "namangan": {
+    "name": "Namangan viloyati",
+    "statistics": {
+      "total": 4624,
+      "malakaOshirgan": 2434,
+      "malakaOshirmagan": 1265,
+      "jarayonda": 925
+    },
+    "details": {
+      "soatlikKurs": 1805,
+      "masofaviyPortal": 1303,
+      "ananaviyPortal": 1104,
+      "ozgarish": 16.3
+    },
+    "barChart": {
+      "2024": [624, 553, 433],
+      "2023": [573, 502, 393],
+      "2022": [523, 452, 353],
+      "2021": [473, 403, 313]
+    },
+    "lineChart": {
+      "labels": ["1-ch", "2-ch", "3-ch", "4-ch"],
+      "soatlikKurs": [413, 483, 553, 624],
+      "masofaviyPortal": [313, 374, 463, 553],
+      "ananaviyPortal": [263, 323, 393, 434]
+    },
+    "tabs": {
+      "prokuratura": {
+        "progress": 76,
+        "completedCount": 118,
+        "statistics": {
+          "total": 1312,
+          "malakaOshirgan": 914,
+          "malakaOshirmagan": 253,
+          "jarayonda": 154
+        },
+        "details": {
+          "soatlikKurs": 453,
+          "masofaviyPortal": 353,
+          "ananaviyPortal": 253,
+          "ozgarish": 7.3
+        }
+      },
+      "departament": {
+        "progress": 53,
+        "completedCount": 173,
+        "statistics": {
+          "total": 1114,
+          "malakaOshirgan": 605,
+          "malakaOshirmagan": 305,
+          "jarayonda": 204
+        },
+        "details": {
+          "soatlikKurs": 402,
+          "masofaviyPortal": 303,
+          "ananaviyPortal": 202,
+          "ozgarish": 5.4
+        }
+      }
+    }
+  },
+  "fargona": {
+    "name": "Farg'ona viloyati",
+    "statistics": {
+      "total": 5523,
+      "malakaOshirgan": 2901,
+      "malakaOshirmagan": 1515,
+      "jarayonda": 1107
+    },
+    "details": {
+      "soatlikKurs": 2155,
+      "masofaviyPortal": 1565,
+      "ananaviyPortal": 1315,
+      "ozgarish": 19.3
+    },
+    "barChart": {
+      "2024": [734, 663, 514],
+      "2023": [683, 613, 473],
+      "2022": [633, 563, 434],
+      "2021": [583, 513, 393]
+    },
+    "lineChart": {
+      "labels": ["1-ch", "2-ch", "3-ch", "4-ch"],
+      "soatlikKurs": [493, 574, 663, 734],
+      "masofaviyPortal": [374, 443, 553, 663],
+      "ananaviyPortal": [313, 383, 463, 514]
+    },
+    "tabs": {
+      "prokuratura": {
+        "progress": 79,
+        "completedCount": 164,
+        "statistics": {
+          "total": 1523,
+          "malakaOshirgan": 1105,
+          "malakaOshirmagan": 254,
+          "jarayonda": 154
+        },
+        "details": {
+          "soatlikKurs": 503,
+          "masofaviyPortal": 403,
+          "ananaviyPortal": 303,
+          "ozgarish": 8.4
+        }
+      },
+      "departament": {
+        "progress": 59,
+        "completedCount": 234,
+        "statistics": {
+          "total": 1305,
+          "malakaOshirgan": 804,
+          "malakaOshirmagan": 303,
+          "jarayonda": 202
+        },
+        "details": {
+          "soatlikKurs": 453,
+          "masofaviyPortal": 353,
+          "ananaviyPortal": 253,
+          "ozgarish": 6.8
+        }
+      }
+    }
+  },
+  "andijon": {
+    "name": "Andijon viloyati",
+    "statistics": {
+      "total": 4823,
+      "malakaOshirgan": 2534,
+      "malakaOshirmagan": 1326,
+      "jarayonda": 963
+    },
+    "details": {
+      "soatlikKurs": 1885,
+      "masofaviyPortal": 1365,
+      "ananaviyPortal": 1154,
+      "ozgarish": 17.2
+    },
+    "barChart": {
+      "2024": [643, 584, 453],
+      "2023": [594, 533, 413],
+      "2022": [543, 483, 373],
+      "2021": [493, 433, 334]
+    },
+    "lineChart": {
+      "labels": ["1-ch", "2-ch", "3-ch", "4-ch"],
+      "soatlikKurs": [433, 503, 583, 645],
+      "masofaviyPortal": [323, 393, 483, 584],
+      "ananaviyPortal": [273, 334, 414, 453]
+    },
+    "tabs": {
+      "prokuratura": {
+        "progress": 77,
+        "completedCount": 144,
+        "statistics": {
+          "total": 1303,
+          "malakaOshirgan": 1004,
+          "malakaOshirmagan": 203,
+          "jarayonda": 105
+        },
+        "details": {
+          "soatlikKurs": 453,
+          "masofaviyPortal": 353,
+          "ananaviyPortal": 304,
+          "ozgarish": 7.1
+        }
+      },
+      "departament": {
+        "progress": 55,
+        "completedCount": 224,
+        "statistics": {
+          "total": 1206,
+          "malakaOshirgan": 702,
+          "malakaOshirmagan": 303,
+          "jarayonda": 201
+        },
+        "details": {
+          "soatlikKurs": 403,
+          "masofaviyPortal": 304,
+          "ananaviyPortal": 252,
+          "ozgarish": 5.8
+        }
+      }
+    }
+  }
+}

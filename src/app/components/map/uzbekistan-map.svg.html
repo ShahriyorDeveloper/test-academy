@@ -1,0 +1,126 @@
+<svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg" class="uzbekistan-map">
+  <path
+    id="qoraqalpogiston"
+    class="region"
+    [class.region--selected]="selectedRegion === 'qoraqalpogiston'"
+    (click)="onRegionClick('qoraqalpogiston')"
+    d="M50,80 L120,40 L200,35 L280,50 L340,90 L360,140 L340,200 L300,250 L240,280 L180,290 L120,270 L80,230 L60,180 L40,130 Z"
+  />
+
+  <path
+    id="xorazm"
+    class="region"
+    [class.region--selected]="selectedRegion === 'xorazm'"
+    (click)="onRegionClick('xorazm')"
+    d="M180,290 L240,280 L300,290 L320,330 L290,370 L230,380 L180,360 L160,320 Z"
+  />
+
+  <path
+    id="navoiy"
+    class="region"
+    [class.region--selected]="selectedRegion === 'navoiy'"
+    (click)="onRegionClick('navoiy')"
+    d="M340,90 L420,70 L500,80 L560,120 L540,180 L500,240 L440,280 L380,290 L340,280 L300,250 L340,200 L360,140 Z"
+  />
+
+  <path
+    id="buxoro"
+    class="region"
+    [class.region--selected]="selectedRegion === 'buxoro'"
+    (click)="onRegionClick('buxoro')"
+    d="M230,380 L290,370 L340,380 L400,400 L420,460 L380,520 L300,540 L220,510 L180,460 L200,400 Z"
+  />
+
+  <path
+    id="qashqadaryo"
+    class="region"
+    [class.region--selected]="selectedRegion === 'qashqadaryo'"
+    (click)="onRegionClick('qashqadaryo')"
+    d="M400,400 L480,380 L540,400 L580,450 L560,510 L500,550 L420,540 L380,520 L420,460 Z"
+  />
+
+  <path
+    id="surxondaryo"
+    class="region"
+    [class.region--selected]="selectedRegion === 'surxondaryo'"
+    (click)="onRegionClick('surxondaryo')"
+    d="M560,510 L620,480 L680,500 L700,560 L660,600 L580,590 L540,560 Z"
+  />
+
+  <path
+    id="samarqand"
+    class="region"
+    [class.region--selected]="selectedRegion === 'samarqand'"
+    (click)="onRegionClick('samarqand')"
+    d="M440,280 L500,240 L560,260 L600,310 L580,370 L520,390 L480,380 L400,400 L340,380 L340,340 L380,290 Z"
+  />
+
+  <path
+    id="jizzax"
+    class="region"
+    [class.region--selected]="selectedRegion === 'jizzax'"
+    (click)="onRegionClick('jizzax')"
+    d="M560,120 L620,100 L680,120 L720,170 L700,230 L640,270 L600,310 L560,260 L500,240 L540,180 Z"
+  />
+
+  <path
+    id="sirdaryo"
+    class="region"
+    [class.region--selected]="selectedRegion === 'sirdaryo'"
+    (click)="onRegionClick('sirdaryo')"
+    d="M680,120 L740,90 L800,100 L820,150 L790,190 L740,200 L700,230 L720,170 Z"
+  />
+
+  <path
+    id="toshkent_viloyati"
+    class="region"
+    [class.region--selected]="selectedRegion === 'toshkent_viloyati'"
+    (click)="onRegionClick('toshkent_viloyati')"
+    d="M740,90 L800,60 L870,50 L920,80 L940,140 L900,180 L840,190 L790,190 L820,150 L800,100 Z"
+  />
+
+  <circle
+    id="toshkent"
+    class="region region--city"
+    [class.region--selected]="selectedRegion === 'toshkent'"
+    (click)="onRegionClick('toshkent')"
+    cx="870"
+    cy="120"
+    r="20"
+  />
+
+  <path
+    id="namangan"
+    class="region"
+    [class.region--selected]="selectedRegion === 'namangan'"
+    (click)="onRegionClick('namangan')"
+    d="M790,190 L840,190 L900,210 L940,250 L920,300 L860,310 L800,280 L760,240 L740,200 Z"
+  />
+
+  <path
+    id="fargona"
+    class="region"
+    [class.region--selected]="selectedRegion === 'fargona'"
+    (click)="onRegionClick('fargona')"
+    d="M800,280 L860,310 L920,300 L970,320 L980,380 L940,420 L870,410 L810,370 L780,320 Z"
+  />
+
+  <path
+    id="andijon"
+    class="region"
+    [class.region--selected]="selectedRegion === 'andijon'"
+    (click)="onRegionClick('andijon')"
+    d="M920,300 L970,280 L1000,310 L990,360 L970,320 Z"
+  />
+
+  @if (selectedRegion) {
+  <text
+    [attr.x]="getRegionCenter(selectedRegion).x"
+    [attr.y]="getRegionCenter(selectedRegion).y"
+    class="region-label"
+    text-anchor="middle"
+  >
+    {{ getSelectedRegionName() }}
+  </text>
+  }
+</svg>
