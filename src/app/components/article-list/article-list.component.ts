@@ -152,11 +152,13 @@ export class ArticleListComponent implements OnInit {
       { field: 'status', header: 'Status', type: 'status' },
     ];
 
-    this.permissionsService.hasPermission('ROLE_ADMIN').then((hasPermission) => {
-      if (hasPermission) {
-        this.columns.push({ field: 'actions', header: 'Amallar', type: 'actions' });
-      }
-    });
+    this.permissionsService
+      .hasPermission(['PERMISSION_EDIT', 'PERMISSION_DELETE'])
+      .then((hasPermission) => {
+        if (hasPermission) {
+          this.columns.push({ field: 'actions', header: 'Amallar', type: 'actions' });
+        }
+      });
   }
 
   goBack() {
@@ -164,7 +166,7 @@ export class ArticleListComponent implements OnInit {
   }
 
   goToCreate() {
-    this.router.navigate(['/articles/create']);
+    this.router.navigate(['/dashboard/articles/create']);
   }
 
   handleAction(event: { row: TableRow; type: MenuActionType }) {

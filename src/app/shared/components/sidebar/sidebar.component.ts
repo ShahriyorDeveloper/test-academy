@@ -4,10 +4,12 @@ import { RouterModule } from '@angular/router';
 
 import { AuthService } from '../../services/auth.service';
 
+import { NgxPermissionsModule } from 'ngx-permissions';
+
 @Component({
   selector: 'app-sidebar',
   standalone: true,
-  imports: [CommonModule, RouterModule],
+  imports: [CommonModule, RouterModule, NgxPermissionsModule],
   template: `
     <div
       class="h-screen flex flex-col justify-between bg-white border-r w-64 fixed left-0 top-0 overflow-y-auto z-10 hidden md:flex"
@@ -22,6 +24,7 @@ import { AuthService } from '../../services/auth.service';
 
       <nav class="flex-1 px-4 space-y-2">
         <a
+          *ngxPermissionsOnly="['COURSE_READ']"
           routerLink="/structure"
           routerLinkActive="bg-blue-50 text-blue-600"
           class="flex items-center gap-3 px-4 py-3 text-gray-700 rounded-xl hover:bg-gray-50 transition-colors"
@@ -30,6 +33,7 @@ import { AuthService } from '../../services/auth.service';
           <span class="font-medium">Tuzilma</span>
         </a>
         <a
+          *ngxPermissionsOnly="['USER_READ']"
           routerLink="/dashboard"
           routerLinkActive="bg-blue-50 text-blue-600"
           class="flex items-center gap-3 px-4 py-3 text-gray-700 rounded-xl hover:bg-gray-50 transition-colors"

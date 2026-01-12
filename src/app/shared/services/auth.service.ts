@@ -22,7 +22,14 @@ export class AuthService {
       switchMap((response) => {
         if (response && response.accessToken) {
           localStorage.setItem('token', response.accessToken);
-          return this.loadPermissions().pipe(map(() => response));
+          return this.checkToken(response.accessToken).pipe(
+            map((user) => {
+              if (user) {
+                this.handleUserPermissions(user);
+              }
+              return response;
+            })
+          );
         }
         return of(response);
       })
@@ -33,22 +40,32 @@ export class AuthService {
     return this.http.get<User>(`${this.apiUrl}/me`);
   }
 
+  checkToken(token: string): Observable<User> {
+    return this.http.get<User>(`${this.apiUrl}/auth/check/token?token=${token}`);
+  }
+
   loadPermissions(): Observable<User | null> {
-    return this.getMe().pipe(
-      tap((user) => {
-        console.log('User data loaded:', user);
-
-        const roles = user.roleName?.map((r) => r.roleName) || [];
-
-        console.log('Loading permissions:', roles);
-        this.permissionsService.loadPermissions(roles.length ? roles : ['ROLE_LISTENER']);
-      }),
+    const token = this.getToken();
+    if (!token) {
+      return of(null);
+    }
+    return this.checkToken(token).pipe(
+      tap((user) => this.handleUserPermissions(user)),
       catchError((err) => {
         console.error('Failed to load user info', err);
-        this.permissionsService.loadPermissions(['GUEST']);
         return of(null);
       })
     );
+  }
+
+  private handleUserPermissions(user: User) {
+    console.log('User data loaded:', user);
+    const permissions = user.permissions || [];
+    const roles = user.roleName?.map((r) => r.roleName) || [];
+    const allPermissions = [...permissions, ...roles];
+
+    console.log('Loading permissions:', allPermissions);
+    this.permissionsService.loadPermissions(allPermissions);
   }
 
   logout() {

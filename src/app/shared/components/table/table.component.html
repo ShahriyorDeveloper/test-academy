@@ -54,7 +54,6 @@
                   icon="pi pi-ellipsis-v"
                   class="p-button-rounded p-button-text p-button-secondary w-10 h-10"
                   (click)="onMenuClick($event, menu, row)"
-                  *ngxPermissionsOnly="['ROLE_ADMIN']"
                 ></button>
                 <p-menu #menu [popup]="true" appendTo="body" [model]="rowMenuItems"></p-menu>
               </ng-container>

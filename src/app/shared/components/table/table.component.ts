@@ -5,7 +5,7 @@ import { Menu, MenuModule } from 'primeng/menu';
 import { MenuItem, SharedModule } from 'primeng/api';
 import { FormsModule } from '@angular/forms';
 import { TableLazyLoadEvent, TableModule } from 'primeng/table';
-import { NgxPermissionsModule } from 'ngx-permissions';
+import { NgxPermissionsModule, NgxPermissionsService } from 'ngx-permissions';
 import { MenuActionType, TableColumn, TableRow } from '../../type';
 
 @Component({
@@ -55,27 +55,43 @@ export class TableComponent {
   rowMenuItems: MenuItem[] = [];
   selectedRow: TableRow | null = null;
 
-  onMenuClick(event: Event, menu: Menu, row: TableRow) {
+  constructor(private permissionsService: NgxPermissionsService) {}
+
+  async onMenuClick(event: Event, menu: Menu, row: TableRow) {
     this.selectedRow = row;
-    this.rowMenuItems = [
-      {
+    this.rowMenuItems = [];
+
+    const hasEdit = await this.permissionsService.hasPermission('PERMISSION_EDIT');
+    const hasDelete = await this.permissionsService.hasPermission('PERMISSION_DELETE');
+
+    if (hasEdit) {
+      this.rowMenuItems.push({
         label: 'Tahrirlash',
         icon: 'pi pi-pencil',
         command: () => this.menuAction.emit({ row, type: 'edit' }),
-      },
-      {
+      });
+    }
+
+    if (hasDelete) {
+      this.rowMenuItems.push({
         label: 'O‘chirish',
         icon: 'pi pi-trash',
         command: () => this.menuAction.emit({ row, type: 'delete' }),
-      },
-      {
+      });
+    }
+
+    if (hasDelete) {
+      // Assuming archive permission is same as delete or similar, or generally available? keeping it safe
+      this.rowMenuItems.push({
         label: 'Arxiv qilish',
         icon: 'pi pi-trash',
         command: () => this.menuAction.emit({ row, type: 'archive' }),
-      },
-    ];
+      });
+    }
 
-    menu.toggle(event);
+    if (this.rowMenuItems.length > 0) {
+      menu.toggle(event);
+    }
   }
 
   onAction(row: TableRow) {

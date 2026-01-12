@@ -124,7 +124,7 @@ export class ArticleCreateComponent {
   }
 
   goBack() {
-    this.router.navigate(['/articles']);
+    this.router.navigate(['/dashboard/articles']);
   }
 
   onSubmit() {

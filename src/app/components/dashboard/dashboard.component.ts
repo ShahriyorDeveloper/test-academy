@@ -68,6 +68,6 @@ export class DashboardComponent {
   constructor(private router: Router) {}
 
   goToArticles() {
-    this.router.navigate(['/articles']);
+    this.router.navigate(['/dashboard/articles']);
   }
 }

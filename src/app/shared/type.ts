@@ -24,6 +24,7 @@ export interface User {
   roleName?: Role[];
   roles?: string[];
   role?: string;
+  permissions?: string[];
 }
 
 export interface TableRow {

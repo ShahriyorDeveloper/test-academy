@@ -29,10 +29,9 @@ export const routes: Routes = [
   {
     path: '',
     component: MainLayoutComponent,
-    canActivate: [NgxPermissionsGuard],
     data: {
       permissions: {
-        only: ['ROLE_ADMIN', 'ROLE_LISTENER'],
+        only: ['COURSE_READ', 'USER_READ'],
         redirectTo: '/login',
       },
     },
@@ -40,6 +39,13 @@ export const routes: Routes = [
       { path: '', redirectTo: 'structure', pathMatch: 'full' },
       {
         path: 'structure',
+        canActivate: [NgxPermissionsGuard],
+        data: {
+          permissions: {
+            only: ['COURSE_READ', 'USER_READ'],
+            redirectTo: '/login',
+          },
+        },
         loadComponent: () =>
           import('./components/structure-map/structure-map.component').then(
             (m) => m.StructureMapComponent
@@ -47,22 +53,48 @@ export const routes: Routes = [
       },
       {
         path: 'dashboard',
-        loadComponent: () =>
-          import('./components/dashboard/dashboard.component').then((m) => m.DashboardComponent),
-      },
-      {
-        path: 'articles',
-        loadComponent: () =>
-          import('./components/article-list/article-list.component').then(
-            (m) => m.ArticleListComponent
-          ),
-      },
-      {
-        path: 'articles/create',
-        loadComponent: () =>
-          import('./components/article-create/article-create.component').then(
-            (m) => m.ArticleCreateComponent
-          ),
+        canActivate: [NgxPermissionsGuard],
+        data: {
+          permissions: {
+            only: ['USER_READ'],
+            redirectTo: '/structure',
+          },
+        },
+        children: [
+          {
+            path: '',
+            loadComponent: () =>
+              import('./components/dashboard/dashboard.component').then(
+                (m) => m.DashboardComponent
+              ),
+          },
+          {
+            path: 'articles',
+            children: [
+              {
+                path: '',
+                loadComponent: () =>
+                  import('./components/article-list/article-list.component').then(
+                    (m) => m.ArticleListComponent
+                  ),
+              },
+              {
+                path: 'create',
+                canActivate: [NgxPermissionsGuard],
+                data: {
+                  permissions: {
+                    only: ['USER_READ'],
+                    redirectTo: '/structure',
+                  },
+                },
+                loadComponent: () =>
+                  import('./components/article-create/article-create.component').then(
+                    (m) => m.ArticleCreateComponent
+                  ),
+              },
+            ],
+          },
+        ],
       },
     ],
   },
