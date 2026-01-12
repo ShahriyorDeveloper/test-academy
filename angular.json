@@ -35,7 +35,7 @@
                 "output": "/assets"
               }
             ],
-            "styles": ["src/styles.scss"],
+            "styles": ["src/styles.scss", "node_modules/primeicons/primeicons.css"],
             "polyfills": ["zone.js"]
           },
           "configurations": {

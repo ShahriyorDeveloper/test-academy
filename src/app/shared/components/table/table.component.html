@@ -1,0 +1,104 @@
+<div class="rounded-2xl border border-gray-200 bg-white overflow-hidden">
+  <p-table
+    [value]="data"
+    [paginator]="true"
+    [rows]="rows"
+    [lazy]="lazy"
+    [scrollable]="true"
+    [totalRecords]="total"
+    (onLazyLoad)="myLazyLoad.emit($event)"
+  >
+    <ng-template pTemplate="header">
+      <tr>
+        <th
+          *ngFor="let col of columns"
+          class="px-5 py-2 text-left bg-[#F7F7F8]! text-sm font-normal text-[#0F132499]! tracking-wider"
+        >
+          {{ col.header }}
+        </th>
+      </tr>
+    </ng-template>
+
+    <ng-template pTemplate="body" let-row>
+      <tr (click)="onRowClick(row)">
+        <td
+          *ngFor="let col of columns"
+          class="px-5! py-5.5! whitespace-nowrap text-sm text-[#14151A]"
+        >
+          <ng-container [ngSwitch]="col.type">
+            <div *ngSwitchCase="'status'">
+              <ng-container *ngIf="row[col.field]; else noStatus">
+                <span
+                  class="px-2 py-1 rounded text-xs font-semibold"
+                  [ngClass]="{
+                    'bg-green-100 text-green-700':
+                      row[col.field] === 'APPROVED' || row[col.field] === 'ACTIVE',
+                    'bg-yellow-100 text-yellow-700': row[col.field] === 'PENDING',
+                    'bg-red-100 text-red-700':
+                      row[col.field] === 'REJECTED' || row[col.field] === 'INACTIVE',
+                    'bg-gray-100 text-gray-700': row[col.field] === 'DRAFT'
+                  }"
+                >
+                  {{ row[col.field] }}
+                </span>
+              </ng-container>
+              <ng-template #noStatus>
+                <span class="text-gray-400 italic">Нет</span>
+              </ng-template>
+            </div>
+
+            <div *ngSwitchCase="'actions'">
+              <ng-container *ngIf="row[col.field]; else noActions">
+                <button
+                  pButton
+                  icon="pi pi-ellipsis-v"
+                  class="p-button-rounded p-button-text p-button-secondary w-10 h-10"
+                  (click)="onMenuClick($event, menu, row)"
+                  *ngxPermissionsOnly="['ROLE_ADMIN']"
+                ></button>
+                <p-menu #menu [popup]="true" appendTo="body" [model]="rowMenuItems"></p-menu>
+              </ng-container>
+              <ng-template #noActions>
+                <span class="text-gray-400 italic">Нет</span>
+              </ng-template>
+            </div>
+
+            <div *ngSwitchCase="'file'">
+              <div
+                class="flex items-center gap-2 px-3 py-1.5 bg-gray-50 border rounded-lg max-w-fit cursor-pointer hover:bg-gray-100 transition-colors"
+              >
+                <i class="pi pi-file-pdf text-red-500 text-lg"></i>
+                <span class="text-sm font-medium text-gray-700 truncate max-w-[150px]">{{
+                  row[col.field]
+                }}</span>
+              </div>
+            </div>
+
+            <div *ngSwitchCase="'link'">
+              <a
+                [href]="row[col.field]"
+                target="_blank"
+                class="flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium group"
+              >
+                <span>Открыть</span>
+                <i
+                  class="pi pi-external-link text-xs group-hover:translate-x-0.5 transition-transform"
+                ></i>
+              </a>
+            </div>
+
+            <ng-container *ngSwitchDefault>
+              <ng-container *ngIf="col.type === 'date'; else defaultText">
+                {{ row[col.field] | date : 'dd.MM.yyyy' }}
+              </ng-container>
+
+              <ng-template #defaultText>
+                {{ row[col.field] }}
+              </ng-template>
+            </ng-container>
+          </ng-container>
+        </td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>
